@@ -65,7 +65,7 @@ mysqli_close($con);
    // <a href="#page1" data-transition="slide">FROM_number</a>
 ?>
         </ul>
-<a id="new_message" data-role="button" data-transition="slide" data-theme="d" href="./reply_message.php?to=<?php echo $_GET["from"] ?>&from=+14152555613" data-icon="plus" data-iconpos="right" class="body">Reply</a>
+<a id="new_message" data-role="button" data-transition="slide" data-theme="d" href="./reply_message.php?to=<?php echo $_GET["from"] ?>&from=<?php echo $_GET["number"] ?>" data-icon="plus" data-iconpos="right" class="body">Reply</a>
 
     </div>
 </div>
