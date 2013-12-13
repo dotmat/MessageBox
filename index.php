@@ -31,14 +31,14 @@
     </div>
     <div data-role="content">
         <h3>Chicken and Bee</h3>
-        <h5>Mobile Messaging For Mathew Jenkinson</h5>
+        <h5>Mobile Messaging For Mathew</h5>
         <ul id="messageList" data-role="listview" data-divider-theme="d" data-inset="true"
         class="body">
             <li data-role="list-divider" role="heading">SMS Numbers</li>
 
 <?php
+include('./ProwlPHP.php');
 require './db.php';
-
 // Querying the DB for the unique incoming numbers
 
 

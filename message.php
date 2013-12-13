@@ -38,6 +38,7 @@
             <?php
             $number = "%" . preg_replace('/\s+/', '', $_GET["from"]) . "%"; 
 
+include('./ProwlPHP.php');
 require './db.php';
 
 // Querying the DB for the messages for a specfic incoming number

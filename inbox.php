@@ -36,7 +36,9 @@
         <ul data-role="listview" data-divider-theme="b" data-inset="true">
             
             <?php
-            require './db.php';
+            include('./ProwlPHP.php');
+			require './db.php';
+			
             $raw_number =  $_GET["number"];
             $number = "%" . preg_replace('/\s+/', '', $_GET["number"]) . "%"; 
 // Querying the DB for the messages for a specfic incoming number

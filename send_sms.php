@@ -3,6 +3,7 @@ $timenow = time();
  
 // Call the resources to allow the page to SMS
 require './php/Services/Twilio.php';
+include('./ProwlPHP.php');
 require './db.php';
    
 // Receive the POSTed data and generate appropriate variables where needed.
